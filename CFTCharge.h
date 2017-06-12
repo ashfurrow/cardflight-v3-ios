@@ -136,7 +136,7 @@
  * Deprecated in 3.5.1
  * @warning Amount cannot exceed original charge amount
  *
- * THIS WILL BE REMOVED IN A LATER RELEASE
+ * THIS WILL BE REMOVED IN THE NEXT RELEASE
  */
 + (void)refundChargeWithToken:(NSString *)token
                     andAmount:(NSDecimalNumber *)amount
@@ -150,7 +150,7 @@
  * @discussion Void a charge that has not batched yet.
  * Deprecated in 3.5.1
  *
- * THIS WILL BE REMOVED IN A LATER RELEASE
+ * THIS WILL BE REMOVED IN THE NEXT RELEASE
  */
 + (void)voidChargeWithWithToken:(NSString *)token
                         success:(void(^)(void))success

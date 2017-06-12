@@ -1,3 +1,8 @@
+### 3.6
+* Support for FDO pre-authorizations with restaurant merchant accounts
+* Fix tokenization (issue 71)
+* Fix early removal of card reader
+
 ### 3.5.1
 * Remove support for Attache reader
 * Fixed transaction result not being returned on cancelled EMV transaction  (issue 64)
