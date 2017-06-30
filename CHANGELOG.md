@@ -1,3 +1,7 @@
+### 3.6.1
+* Fix issue around double reporting of transaction result
+* Fix name formatting on Shuttle readers (issue 2)
+
 ### 3.6
 * Support for FDO pre-authorizations with restaurant merchant accounts
 * Fix tokenization (issue 71)

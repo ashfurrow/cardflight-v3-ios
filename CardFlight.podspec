@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name                 = 'CardFlight'
-  spec.version              = '3.6'
+  spec.version              = '3.6.1'
   spec.license = {
     :type => 'commercial',
     :text => 'Copyright 2017 Cardflight, Inc. All rights reserved.'
