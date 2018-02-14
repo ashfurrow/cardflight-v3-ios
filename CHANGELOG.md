@@ -1,3 +1,6 @@
+### 3.6.2
+* Fix for crash when rapidly selecting readers
+
 ### 3.6.1
 * Fix issue around double reporting of transaction result
 * Fix name formatting on Shuttle readers (issue 2)
