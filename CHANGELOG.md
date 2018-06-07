@@ -1,3 +1,6 @@
+### 3.6.3
+* Improved Bold reader detection
+
 ### 3.6.2
 * Fix for crash when rapidly selecting readers
 

@@ -213,16 +213,6 @@
  */
 - (void)readerNotDetected;
 
-// ******************** DEPRECATED ********************
-
-/*!
- * @brief For internal use only
- *
- * THIS WILL BE REMOVED IN THE NEXT RELEASE
- * Deprecated in 3.1
- */
-- (void)callback:(NSDictionary *)parameters __deprecated;
-
 @end
 
 @interface CFTReader : NSObject
