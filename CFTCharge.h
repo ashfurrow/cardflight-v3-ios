@@ -125,4 +125,35 @@
 
 // ******************** DEPRECATED ********************
 
+/*!
+ * @brief Refund a charge
+ * @param token Charge token to be refunded
+ * @param amount NSDecimalNumber of amount to be refunded
+ * @param success Block containing CFTCharge, executed on success
+ * @param failure Block containing NSError, executed on failure
+ * @discussion Refund a charge by passing in the charge token
+ * and amount to refund in dollars and cents.
+ * Deprecated in 3.5.1
+ * @warning Amount cannot exceed original charge amount
+ *
+ * THIS WILL BE REMOVED IN THE NEXT RELEASE
+ */
++ (void)refundChargeWithToken:(NSString *)token
+                    andAmount:(NSDecimalNumber *)amount
+                      success:(void(^)(CFTCharge *charge))success
+                      failure:(void(^)(NSError *error))failure __deprecated;
+
+/*!
+ * @brief Void a charge
+ * @param success Block executed on success, isVoided is set to YES
+ * @param failure Block containing NSError, executed on failure
+ * @discussion Void a charge that has not batched yet.
+ * Deprecated in 3.5.1
+ *
+ * THIS WILL BE REMOVED IN THE NEXT RELEASE
+ */
++ (void)voidChargeWithWithToken:(NSString *)token
+                        success:(void(^)(void))success
+                        failure:(void(^)(NSError *error))failure __deprecated;
+
 @end
