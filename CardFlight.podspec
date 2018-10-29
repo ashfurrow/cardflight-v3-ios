@@ -14,7 +14,7 @@ Pod::Spec.new do |spec|
   spec.requires_arc         = true
   spec.frameworks           = 'AVFoundation', 'AudioToolbox', 'MediaPlayer', 'MessageUI', 'ExternalAccessory'
   spec.pod_target_xcconfig  =  { 'LIBRARY_SEARCH_PATHS' => '$(PODS_ROOT)/CardFlight' }
-  spec.library              = 'stdc++.6.0.9'
+  spec.library              = 'libc++.tbd'
   spec.source_files         = '*.{h,m}'
   spec.preserve_path        = 'libCardFlightLibrary.a'
   spec.vendored_library     = 'libCardFlightLibrary.a'
